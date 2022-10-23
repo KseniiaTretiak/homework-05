@@ -1,0 +1,386 @@
+.navigation{
+display: flex;
+flex-direction: row;
+align-items: center;
+list-style-type: none;
+padding: 0px;
+gap: 40px;
+width: 496px;
+height: 30px;
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+Top: 25px;
+Left: 472px;
+Gap: 40px;
+}
+.AHo{
+width: 53px;
+height: 25px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+letter-spacing: 0.02em;
+color: #070707;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.A2{
+width: 86px;
+height: 25px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+letter-spacing: 0.02em;
+color: #828282;
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.SK2{
+width: 44px;
+height: 25px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+letter-spacing: 0.02em;
+color: #828282;
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+.Por3{
+width: 76px;
+height: 25px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+text-align: center;
+letter-spacing: 0.02em;
+color: #828282;
+flex: none;
+order: 3;
+flex-grow: 0;
+}
+.Cont4{
+width: 77px;
+height: 25px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+letter-spacing: 0.02em;
+color: #828282;
+flex: none;
+order: 4;
+flex-grow: 0;
+}
+   
+.photo{
+    width: 970px;
+    height: 387px;
+    top: 110px;
+    flex: none;
+order: 1;
+flex-grow: 0;  
+  
+}
+.Vector{
+width: 970px;
+left: 235px;
+}
+.about{
+width: 200px;
+height: 40px;
+font-family: 'Open Sans';
+font-weight: 700;
+font-size: 34px;
+line-height: 46px;
+text-align: center;
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1
+}
+.about2{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 30px;
+width: 480px;
+height: 210px;
+flex: none;
+order: 2;
+flex-grow: 0;
+z-index: 2;
+}
+.Skills{
+width: 120px;
+height: 40px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 34px;
+line-height: 46px;
+text-align: center;
+color: #070707;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.Skills1{
+width: 250px;
+height: 24px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+text-align: center;
+color: #070707;
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.pic{
+    display: flex;
+}
+.Ps{
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 60px;
+width: 170px;
+height: 230px;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.Ai{
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 60px;
+width: 170px;
+height: 230px;
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.AF{
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 60px;
+width: 170px;
+height: 230px;
+flex: none;
+order: 2;
+}
+.Figma{
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 80px;
+width: 170px;
+height: 230px;
+flex: none;
+order: 3;
+}
+.Portfolio{
+width: 150px;
+height: 40px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 34px;
+line-height: 46px;
+text-align: center;
+color: #070707;
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
+}
+.Fashion-Store{
+ width: 970px;
+height: 540px;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.FS-HP{
+width: 200px;
+height: 50px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+text-align: center;
+text-decoration-line: underline;
+color: #070707;
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.reebok_web{
+width: 970px;
+height: 540px;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.RC-C{
+width: 200px;
+height: 24px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+text-align: center;
+text-decoration-line: underline;
+color: #070707;
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.braun-landing{
+width: 970px;
+height: 540px;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.BLP-C{
+ width: 260px;
+height: 24px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+text-align: center;
+text-decoration-line: underline;
+color: #070707;
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.Contacts{
+ width: 150px;
+height: 40px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 34px;
+line-height: 46px;
+text-align: center;
+color: #070707;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.cont2{
+ width: 280px;
+height: 46px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+text-align: center;
+color: #070707;
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.BT2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 16px;
+    width: 180px;
+    height: 44px;
+    background: #070707;
+    border-radius: 22px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.text{
+width: 148px;
+height: 24px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 25px;
+text-align: center;
+letter-spacing: 0.1em;
+color: #FFFFFF;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.linkedin{
+width: 40px;
+height: 40px;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.instagram{
+    width: 40px;
+    height: 40px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;   
+}
+.behance{
+width: 40px;
+height: 40px;
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+.dribbble{
+width: 40px;
+height: 40px;
+flex: none;
+order: 3;
+flex-grow: 0;
+}
+.end{
+width: 200px;
+height: 60px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+text-align: center;
+color: #828282;
+flex: none;
+order: 2;
+flex-grow: 0;
+}
