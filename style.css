@@ -7,7 +7,8 @@ padding: 0px;
 gap: 40px;
 width: 496px;
 height: 30px;
-flex: none;
+padding-left: 472px;
+padding-top: 25px;
 order: 0;
 flex-grow: 0;
 z-index: 0;
@@ -92,18 +93,20 @@ order: 4;
 flex-grow: 0;
 }
    
-.photo{
-    display: flex;
-    padding: 10px;
-    border: 1px solid black;
-    align-items: start;
-    margin: 0px; 
+.photoman{
+width: 970px;
+height: 387px;
+padding-left: 235px;
+mix-blend-mode: darken;
+flex: none;
+order: 1;
+flex-grow: 0;
   
 }
 .Vector{
-   
+   padding-left: 235px;
     width: 970px;
-   
+   padding-top: 25px;
     left: 235px;
    
     
@@ -111,16 +114,23 @@ flex-grow: 0;
 .denisnov{
     width: 300px;
     height: 60px;
+    padding-left: 235px;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 48px;
     line-height: 65px;
-}
-    
+} 
+ .backgr{
+background-color: #F6F6F6;
+padding-top: 100px;
+padding-bottom: 100px;
+ }  
 .about{
 width: 200px;
 height: 40px;
+padding-left: 650px;
+padding-top: 80px;
 font-family: 'Open Sans';
 font-weight: 700;
 font-size: 34px;
@@ -132,36 +142,9 @@ flex-grow: 0;
 z-index: 1
 }
 .aboutpar{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0px;
-    gap: 30px;
-    width: 480px;
-    height: 210px;
-    flex: none;
-    order: 2;
-    flex-grow: 0;
-    z-index: 2;
-}
-.Skills{
-width: 120px;
-height: 40px;
-font-family: 'Open Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 34px;
-line-height: 46px;
-text-align: center;
-color: #070707;
-flex: none;
-order: 0;
-flex-grow: 0;
-}
-.Skillspar{
-width: 250px;
-height: 24px;
+width: 480px;
+height: 50px;
+padding-left: 500px;
 font-family: 'Open Sans';
 font-style: normal;
 font-weight: 400;
@@ -170,34 +153,89 @@ line-height: 25px;
 text-align: center;
 color: #070707;
 flex: none;
-order: 1;
-flex-grow: 0;
-}
-.pic{
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 0px;
-gap: 97px;
-width: 970px;
-height: 230px;
-flex: none;
-order: 1;
-flex-grow: 0;
-}
-.Ps{
-display: flex;
-flex-direction: column;
-align-items: center;
-float: left;
-padding: 0px;
-gap: 60px;
-width: 170px;
-height: 230px;
-flex: none;
 order: 0;
 flex-grow: 0;
+}
+.courses{
+    width: 406px;
+    height: 50px;
+    font-family: 'Open Sans';
+    padding-left: 537px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #070707;
+    flex: none;
+    order: 1;
+    flex-grow: 0;  
+}
+.projects{
+width: 321px;
+height: 50px;
+padding-left: 580px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+text-align: center;
+color: #070707;
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+.Skills{
+    width: 120px;
+    height: 40px;
+    padding-left: 680px;
+    padding-top: 200px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 46px;
+    text-align: center;
+    color: #070707;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.Skillspar{
+    width: 250px;
+    height: 24px;
+    padding-left: 620px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #070707;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.pic{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 97px;
+    width: 970px;
+    height: 230px;
+}
+.Ps{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 60px;
+    padding-left: 550px;
+    width: 170px;
+    height: 230px
 }
 .Ai{
 display: flex;
@@ -235,46 +273,59 @@ height: 230px;
 flex: none;
 order: 3;
 }
+.background{
+background-color: #F6F6F6;
+margin-top: 100px;
+padding-bottom: 100px;
+}
 .Portfolio{
-width: 150px;
-height: 40px;
-font-family: 'Open Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 34px;
-line-height: 46px;
-text-align: center;
-color: #070707;
-flex: none;
-order: 1;
-flex-grow: 0;
-z-index: 1;
+    width: 150px;
+    height: 40px;
+    font-family: 'Open Sans';
+    padding-left: 680px;
+    padding-top: 100px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 46px;
+    text-align: center;
+    color: #070707;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    z-index: 1;
 }
 .Fashion-Store{
  width: 970px;
 height: 540px;
+padding-left: 235px;
+padding-top: 50px;
 flex: none;
 order: 0;
 flex-grow: 0;
 }
 .FS-HP{
-width: 200px;
-height: 50px;
-font-family: 'Open Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 25px;
-text-align: center;
-text-decoration-line: underline;
-color: #070707;
-flex: none;
-order: 1;
-flex-grow: 0;
+    width: 200px;
+    height: 50px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    padding-left: 620px;
+    padding-top: 40px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #070707;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
 }
 .reebok_web{
 width: 970px;
 height: 540px;
+padding-left: 235px;
+padding-top: 70px;
 flex: none;
 order: 0;
 flex-grow: 0;
@@ -283,6 +334,8 @@ flex-grow: 0;
 width: 200px;
 height: 24px;
 font-family: 'Open Sans';
+padding-left: 620px;
+padding-top: 40px;
 font-style: normal;
 font-weight: 400;
 font-size: 18px;
@@ -297,6 +350,8 @@ flex-grow: 0;
 .braun-landing{
 width: 970px;
 height: 540px;
+padding-left: 235px;
+padding-top: 70px;
 flex: none;
 order: 0;
 flex-grow: 0;
@@ -305,6 +360,8 @@ flex-grow: 0;
  width: 260px;
 height: 24px;
 font-family: 'Open Sans';
+padding-left: 620px;
+padding-top: 40px;
 font-style: normal;
 font-weight: 400;
 font-size: 18px;
@@ -317,36 +374,42 @@ order: 1;
 flex-grow: 0;
 }
 .Contacts{
- width: 150px;
-height: 40px;
-font-family: 'Open Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 34px;
-line-height: 46px;
-text-align: center;
-color: #070707;
-flex: none;
-order: 0;
-flex-grow: 0;
+    width: 150px;
+    height: 40px;
+    font-family: 'Open Sans';
+    padding-left: 680px;
+    padding-top: 200px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 46px;
+    text-align: center;
+    color: #070707;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
 }
-.Contactspa{
- width: 280px;
-height: 46px;
-font-family: 'Open Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 25px;
-text-align: center;
-color: #070707;
-flex: none;
-order: 1;
-flex-grow: 0;
+.Contactspar{
+    width: 280px;
+    height: 46px;
+    font-family: 'Open Sans';
+    padding-left: 620px;
+    padding-top: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #070707;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
 }
 .button{
     display: flex;
     flex-direction: row;
+    margin-left: 665px;
+    margin-top: 60px;
     justify-content: center;
     align-items: center;
     padding: 0px 16px;
@@ -359,23 +422,26 @@ flex-grow: 0;
     flex-grow: 0;
 }
 .text{
-width: 148px;
-height: 24px;
-font-family: 'Open Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 25px;
-text-align: center;
-letter-spacing: 0.1em;
-color: #FFFFFF;
-flex: none;
-order: 0;
-flex-grow: 0;
+    width: 148px;
+    height: 24px;
+    font-family: 'Open Sans';
+   
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
 }
 .linkedin{
 width: 40px;
 height: 40px;
+padding-left: 610px;
+padding-top: 30px;
 order: 0;
 flex-grow: 0;
 }
@@ -401,16 +467,18 @@ order: 3;
 flex-grow: 0;
 }
 .end{
-width: 200px;
-height: 60px;
-font-family: 'Open Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 19px;
-text-align: center;
-color: #828282;
-flex: none;
-order: 2;
-flex-grow: 0;
+    width: 200px;
+    height: 60px;
+    font-family: 'Open Sans';
+    padding-left: 650px;
+    padding-top: 60px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #828282;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
 }
